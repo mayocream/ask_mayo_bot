@@ -1,0 +1,27 @@
+# Notice:
+# Use Quote marks if space exists, example "AP EG"
+
+# Bot Api Token
+BOT_API_TOKEN=
+
+# The name display in reply
+MASTER_NAME=
+
+# Telegram User Integer iID
+MASTER_USER_ID=
+
+# Channal ID with @
+CHANNAL_ID=
+
+# You can use HTML like <b> <i>
+# /start % /help text, dont delete quote marks
+HELP_TEXT_TEMPLATE="向<b> [MASTER_NAME] </b>说/问点什么：\n<b>(匿名发送)</b>\n\n在窗口发送想说的话~\n\n收到回复后会自动转发到频道 [CHANNAL_ID]\n加上 <b>#private</b> 关闭转发到频道。"
+
+# Dont add \n
+ASK_TEXT_PREFIX=<b>Q：</b>
+
+# Reply to Asker privately
+REPLY_TEXT_TEMPLATE=[MASTER_NAME]：\n[TEXT]
+
+# Forward to channal text
+FORWARD_TO_CHANNAL_TEXT_TEMPLATE=[ASK_TEXT]\n\n[REPLY]
