@@ -38,7 +38,7 @@ CHANNAL_ID 频道 ID，格式是 @ask_mayo，注意带 at 符号
 \*更新增加修改文字部分。  
 
 用 Git 或 FTP 上传到服务器。  
-（推荐使用 Heorkuapp 比较方便）  
+（推荐使用  Herokuapp 比较方便）  
 
 部署有问题可以联系我。  
 
